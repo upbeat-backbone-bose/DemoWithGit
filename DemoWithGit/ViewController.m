@@ -35,7 +35,7 @@
 
 - (void)changeMySwitch:(id)sender
 {
-#implementation this method.
+
 }
 
 @end

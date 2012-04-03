@@ -36,7 +36,7 @@
 				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
 				<array class="NSMutableArray" key="NSSubviews">
-					<object class="IBUISwitch" id="22734880">
+					<object class="IBUISwitch" id="1032677955">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{106, 216}, {94, 27}}</string>
@@ -49,7 +49,7 @@
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<bool key="IBUIOn">YES</bool>
 					</object>
-					<object class="IBUILabel" id="660084872">
+					<object class="IBUILabel" id="1030036530">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{20, 419}, {280, 21}}</string>
@@ -110,17 +110,17 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">mySwitch</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="22734880"/>
+						<reference key="destination" ref="1032677955"/>
 					</object>
-					<int key="connectionID">10</int>
+					<int key="connectionID">12</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">switchStatus</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="660084872"/>
+						<reference key="destination" ref="1030036530"/>
 					</object>
-					<int key="connectionID">11</int>
+					<int key="connectionID">13</int>
 				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -146,19 +146,19 @@
 						<int key="objectID">6</int>
 						<reference key="object" ref="774585933"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="22734880"/>
-							<reference ref="660084872"/>
+							<reference ref="1032677955"/>
+							<reference ref="1030036530"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">8</int>
-						<reference key="object" ref="22734880"/>
+						<reference key="object" ref="1032677955"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">9</int>
-						<reference key="object" ref="660084872"/>
+						<reference key="object" ref="1030036530"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
 				</array>
@@ -176,7 +176,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">11</int>
+			<int key="maxID">14</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
