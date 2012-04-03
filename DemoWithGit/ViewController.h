@@ -9,5 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    UISwitch *mySwitch;
+    UILabel *switchStatus;
+}
+
+@property (retain, nonatomic) IBOutlet UISwitch *mySwitch;
+@property (retain, nonatomic) IBOutlet UILabel *switchStatus;
+
+- (void)changeMySwitch:(id)sender;
 
 @end

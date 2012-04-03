@@ -13,6 +13,8 @@
 @end
 
 @implementation ViewController
+@synthesize mySwitch;
+@synthesize switchStatus;
 
 - (void)viewDidLoad
 {
@@ -29,6 +31,11 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}
+
+- (void)changeMySwitch:(id)sender
+{
+#implementation this method.
 }
 
 @end
